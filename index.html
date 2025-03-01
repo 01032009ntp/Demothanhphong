@@ -31,7 +31,12 @@
                     </p>
                 </div>
             </div>
-            <canvas id="canvas" style="width: 100%; height: auto;"></canvas>
+            <canvas id="canvas"></canvas>
+                            <script>
+  const canvas = document.getElementById("canvas");
+  canvas.width = window.innerWidth;  // Chiều rộng bằng với chiều rộng màn hình
+  canvas.height = window.innerHeight;  // Chiều cao bằng với chiều cao màn hình
+</script>
         </div>
 
     </div>
